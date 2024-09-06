@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Xml;
 
 namespace MixedColumn.Property {
-    class PropertyFactory {
+    public class PropertyFactory {
         public static PropertyBasic createProperty(XmlNode node, PropertyBasic parent = null) {
             PropertyBasic property;
             switch (node.Name) {

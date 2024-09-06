@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MProperties>
+	<PropertyComboBox name="Simulation Type" value="1. Incompressible Steady State;2. Heat Transfer Steady State;3. Incompressible Transient;4. Heat Transfer Transient;5. Incompressible Restart;6. Incompressible Flow Balancing;7. Incompresible Priming;8. Compressible Steady State;9. Compressible Transient;10. Compressible Flow Balance;11. Compressible Restart;12. Two Phase Steady State;13. Two Phase Transient;15. Two Phase Restart" selected="0" />
+	<PropertyComboBox name="Muti Fluid Simulation" value="Set to 'not set';1. Yes;2. No" selected="1" />
+	<PropertyText name="Simulation Title" value="" />
+	<PropertyNode name="Output Control">
+		<PropertyComboBox name="Output Branch Mass Flowrate / Force" value="Set to 'not set';1. Yes;2. No" selected="1" />
+		<PropertyComboBox name="Output Branch Volumetric Flowrate" value="Set to 'not set';1. Yes;2. No" selected="1" />
+		<PropertyComboBox name="Output Branch Velocity" value="Set to 'not set';1. Yes;2. No" selected="1" />
+		<PropertyComboBox name="Output Branch Reynolds Number" value="Set to 'not set';1. Yes;2. No" selected="1" />
+		<PropertyComboBox name="Output Branch Mach Number" value="Set to 'not set';1. Yes;2. No" selected="1" />
+		<PropertyComboBox name="Output Branch Static Pressure" value="Set to 'not set';1. Yes;2. No" selected="1" />
+		<PropertyComboBox name="Output Branch Static Temperature" value="Set to 'not set';1. Yes;2. No" selected="1" />
+		<PropertyComboBox name="Output Branch Density" value="Set to 'not set';1. Yes;2. No" selected="1" />
+		<PropertyComboBox name="Output Branch Visocosity" value="Set to 'not set';1. Yes;2. No" selected="1" />
+		<PropertyComboBox name="Output Branch Specific Heat" value="Set to 'not set';1. Yes;2. No" selected="1" />
+		<PropertyComboBox name="Output Branch Thermal Conductivity" value="Set to 'not set';1. Yes;2. No" selected="1" />
+		<PropertyComboBox name="Output Branch Compressibility Factor" value="Set to 'not set';1. Yes;2. No" selected="1" />
+		<PropertyComboBox name="Output Branch Gas Constant" value="Set to 'not set';1. Yes;2. No" selected="1" />
+		<PropertyComboBox name="Output Branch Ratio of Specific Heats" value="Set to 'not set';1. Yes;2. No" selected="1" />
+		<PropertyComboBox name="Output Branch Total Heat Flow" value="Set to 'not set';1. Yes;2. No" selected="1" />
+		<PropertyComboBox name="Output Node Total Pressure" value="Set to 'not set';1. Yes;2. No" selected="1" />
+		<PropertyComboBox name="output Node Total Temperature" value="Set to 'not set';1. Yes;2. No" selected="1" />
+		<PropertyComboBox name="Output Node Level" value="Set to 'not set';1. Yes;2. No" selected="1" />
+		<PropertyComboBox name="Output Node Fluid Identifier" value="Set to 'not set';1. Yes;2. No" selected="1" />
+		<PropertyComboBox name="Output Node Fluid Concentration" value="Set to 'not set';1. Yes;2. No" selected="1" />
+		<PropertyComboBox name="Output Branch Vector Results" value="Set to 'not set';1. Yes;2. No" selected="1" />
+		<PropertyComboBox name="Component Result Filter" value="Set to 'not set';1. Exclude No Result;2. Exclude Low Priority Results;3. Exclude High Priority Results" selected="1" />
+		<PropertyComboBox name="Warnings Suppressed" value="Set to 'not set';1. Yes;2. No" selected="1" />
+		<PropertyComboBox name="N-Arm Script Verifier" value="Set to 'not set';1. Enabled;2. Disabled;3. Only Report Failures" selected="1" />
+	</PropertyNode>
+	<PropertyComboBox name="Initialisation Script" value="Set to 'not set';1. Yes;2. No" selected="0" />
+	<PropertyComboBox name="Post Processing Script" value="Set to 'not set';1. Yes;2. No" selected="0" />
+	<PropertyNode name="Turbine Data">
+		<PropertyComboBox name="Secondary Air Analysis Enabled" value="Set to 'not set';1. Yes;2. No" selected="2" />
+		<PropertyComboBox name="Impingement Loss Calculation Enabled" value="Set to 'not set';1. Yes;2. No" selected="0" />
+	</PropertyNode>
+	<PropertyNode name="Fluid Property Caching">
+		<PropertyNode name="Humid Air Caching">
+			<PropertyText name="Title" value="" />
+		</PropertyNode>
+		<PropertyNode name="Eagle Database Caching">
+			<PropertyText name="Title" value="" />
+		</PropertyNode>
+	</PropertyNode>
+	<PropertyNode name="Pipe Profiling Data">
+		<PropertyText name="Title" value="" />
+	</PropertyNode>
+</MProperties>

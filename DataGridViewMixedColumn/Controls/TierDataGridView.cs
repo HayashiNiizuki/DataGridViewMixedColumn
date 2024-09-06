@@ -1,14 +1,14 @@
 ﻿using MixedColumn.Property;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace MixedColumn.Controls {
-
-    class TierDataGridView : DataGridView {
+    public class TierDataGridView : DataGridView {
         public PropertyNode currentNode = null;
         private DataGridViewMixedColumn valueColumn;
         protected string Filter = null;
@@ -33,6 +33,9 @@ namespace MixedColumn.Controls {
 
             this.AllowUserToAddRows = false;
             this.AllowUserToDeleteRows = false;
+
+            this.RowTemplate.Height = 20;
+            this.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.None;
         }
 
         public void SetFilter(string filter) {
