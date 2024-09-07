@@ -13,3 +13,5 @@ This is a DataGridView control for WinForms, which supports inserting various ty
 <div align="left">
     <img src="example.png" alt="example"> 
 </div>
+
+Of course you can add your custom editing control with coupled Property inherited from PropertyBasic.
